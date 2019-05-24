@@ -9,7 +9,7 @@
 import Foundation
 
 
-struct ArticalModel {
+struct Artical {
     
     var author : String
     var title : String
@@ -17,10 +17,10 @@ struct ArticalModel {
     var url : String
     var img : String
     var content : String
-   // var source : Source
+    var spurce : source
 }
 
 
-struct Source {
+struct source {
     var name : String
 }
